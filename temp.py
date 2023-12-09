@@ -64,8 +64,8 @@ thickness = 5
 image = cv2.line(image, start_point, end_point, color, thickness) 
 # Display the image 
 #cv2.imshow('Drawing_Line', image) 
-cv2.waitKey(0) 
-cv2.destroyAllWindows()
+#cv2.waitKey(0) 
+#cv2.destroyAllWindows()
 
 img = pil.Image.open('image.jpg')
 img1 = pil.Image.open('image1.jpg')
