@@ -1,11 +1,10 @@
 import streamlit as st
 import numpy as np
 import math as m
-import PIL as pil
+import PIL as pil 
 import cv2 
 from PIL import Image
 st.write ("""# Syndromic Craniosynostosis""")
-
 #st.sidebar.header('input')
 col1, col2= st.columns([1,3])
 #angle1=st.sidebar.number_input("X",value=float())
