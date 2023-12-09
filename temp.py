@@ -73,7 +73,7 @@ img1 = pil.Image.open('image1.jpg')
 #path = r'C:/Users/saoba/OneDrive/Desktop/New folder/image1.jpg'
 #image = cv2.imread(path) 
 
-#col2.image(img, caption='CT Scan for Skull')
+col2.image(img, caption='CT Scan for Skull')
 col2.image(image1, caption='CT Scan for Skull')
 
 
