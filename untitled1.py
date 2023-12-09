@@ -4,6 +4,7 @@ import numpy as np
 import math as m
 import PIL as pil 
 from PIL import Image
+import cv2 
 st.write ("""# Syndromic Craniosynostosis""")
 
 #st.sidebar.header('input')
