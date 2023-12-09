@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import math as m
 import PIL as pil
-import cv2 
+from opencv-python import cv2 
 from PIL import Image
 st.write ("""# Syndromic Craniosynostosis""")
 
