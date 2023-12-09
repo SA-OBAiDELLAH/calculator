@@ -46,9 +46,9 @@ e1, e2 = s1+ZMR_ZML() , s2+ZMR_ZML()
 
 path = r'C:/Users/saoba/OneDrive/Desktop/New folder/image1.jpg'
 image = cv2.imread(path) 
-image1 = Image.open(path)
-print (image1.width)
-print (image1.height)
+#image1 = Image.open(path)
+#print (image1.width)
+#print (image1.height)
 
 # Creating a black screen image using numpy.zeros function 
 Img = np.zeros((400, 400, 3), dtype='uint8') 
@@ -61,7 +61,7 @@ color = (255, 0, 0)
 # Line thickness of 9 px 
 thickness = 5
 # Using cv2.line() method to draw a diagonal green line with thickness of 9 px 
-image1 = cv2.line(image, start_point, end_point, color, thickness) 
+image = cv2.line(image, start_point, end_point, color, thickness) 
 # Display the image 
 #cv2.imshow('Drawing_Line', image) 
 cv2.waitKey(0) 
@@ -73,8 +73,8 @@ img1 = pil.Image.open('image1.jpg')
 #path = r'C:/Users/saoba/OneDrive/Desktop/New folder/image1.jpg'
 #image = cv2.imread(path) 
 
-col2.image(img, caption='CT Scan for Skull')
-col2.image(image1, caption='CT Scan for Skull')
+#col2.image(img, caption='CT Scan for Skull')
+col2.image(image, caption='CT Scan for Skull')
 
 
 
