@@ -3,6 +3,7 @@ import streamlit as st
 import numpy as np
 import math as m
 import PIL as pil 
+import cv2
 from PIL import Image
 st.write ("""# Syndromic Craniosynostosis""")
 
@@ -52,4 +53,3 @@ img1 = pil.Image.open('image1.jpg')
 #image = cv2.imread(path) 
 
 col2.image(img, caption='CT Scan for Skull')
-

@@ -6,7 +6,7 @@ Created on Sun Dec  3 17:05:49 2023
 """
 import numpy as np
 import random as ran
-import cv2
+from opencv-python import cv2
 from PIL import Image
 
  
