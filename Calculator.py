@@ -69,7 +69,7 @@ elif ZML_ZMR!=None and NBa!=None :
     s1, s2 = 100, 150
     e1, e2 = s1+ZMR_ZML(NBa) , s2+ZMR_ZML(NBa)
     
-    path = r'C:/Users/saoba/OneDrive/Desktop/New folder/image1.jpg'
+    path = r'image1.jpg'
     myimage = cv2.imread(path) 
     image1 = cv2.imread(path)
 
