@@ -17,7 +17,7 @@ def ZMR_ZML(Z):
     return y
 
 col1.subheader('Input')
-SN=5 #col1.number_input("SN",value=None)
+SN=col1.number_input("SN",value=None)
 SBa=col1.number_input("SBa",value=None)
 
 if SN==None and SBa==None :
