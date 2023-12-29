@@ -4,8 +4,8 @@ import math as m
 import PIL as pil 
 import cv2 
 #from PIL import Image
-st.write ("""# Syndromic Craniosynostosis""")
-#st.sidebar.header('input')
+st.write ("""# Craniofacial Growth Calculator""")
+st.sidebar.header('This calculator will approxmate the amount of advsncmrnt needed to be done based on the NBa')
 col1, col2= st.columns([1,3])
 
 def fNBa(X,Y):
