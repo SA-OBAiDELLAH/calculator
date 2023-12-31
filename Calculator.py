@@ -26,8 +26,19 @@ if SN==None and SBa==None :
 ZML_ZMR=col1.number_input("ZML-ZMR",value=None)
 
 path0 = r'image2.gif'
-myimage1 = cv2.imread(path0) 
-col1.image(myimage1, caption='GIF')
+myimage1 = cv2.imread("image2.gif") 
+#col1.image(myimage1, caption='GIF')
+
+
+# To iterate through the entire gif
+try:
+    while 1:
+        myimage1.seek(myimage1.tell()+1)
+        # do something to im
+except EOFError:
+    pass # end of sequence
+
+
 
 if SN==None and SBa==None and NBa==None or ZML_ZMR==None :
  col2.markdown( "### :red[Please Enter the Patient's Measurments]")
