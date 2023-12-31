@@ -25,7 +25,7 @@ if SN==None and SBa==None :
 
 ZML_ZMR=col1.number_input("ZML-ZMR",value=None)
 
-path0 = r'image2.jif'
+path0 = r'image2.gif'
 myimage1 = cv2.imread(path0) 
 col1.image(myimage1, caption='GIF')
 
