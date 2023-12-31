@@ -25,6 +25,10 @@ if SN==None and SBa==None :
 
 ZML_ZMR=col1.number_input("ZML-ZMR",value=None)
 
+path0 = r'image2.jpg'
+myimage1 = cv2.imread(path0) 
+col1.image(myimage1, caption='GIF')
+
 if SN==None and SBa==None and NBa==None or ZML_ZMR==None :
  col2.markdown( "### :red[Please Enter the Patient's Measurments]")
 elif SN!=None and SBa!=None and ZML_ZMR!=None :
