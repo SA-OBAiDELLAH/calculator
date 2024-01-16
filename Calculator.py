@@ -32,10 +32,10 @@ elif SN!=None and SBa!=None and ZML_ZMR!=None :
     col1.write("NBa")
     col1.write(fNBa(SN,SBa))
 
-    col2.subheader(' The Diagnosis',)
+    col2.subheader(' The Estimated Value',)
     col2.write("###### Expected ZMR-ZML")
     col2.write(ZMR_ZML(fNBa(SN,SBa)))
-    col2.write("The Volume of Movment is")
+    col2.write("The Volume of Movement is")
     col2.write(ZMR_ZML(fNBa(SN,SBa))-ZML_ZMR)
 
     s1, s2 = 100, 150
